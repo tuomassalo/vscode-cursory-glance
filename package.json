@@ -2,12 +2,13 @@
   "name": "cursory-glance",
   "displayName": "cursory-glance",
   "description": "Highlight the cursors when there are more than of them",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "tuomassalo",
   "repository": {
     "type": "git",
     "url": "https://github.com/tuomassalo/vscode-cursory-glance"
   },
+  "icon": "vscode-icon.png",
   "engines": {
     "vscode": "^1.27.0"
   },
