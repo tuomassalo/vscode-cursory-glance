@@ -6,7 +6,7 @@ VSCode extension that highlights the cursors when there are more than of them.
 
 I found myself forgetting the multi-cursor feature on, and editing multiple places by accident. So I wrote this package that annotates the cursor with the number of cursors. The extension is activated when the user creates multiple selection with e.g. `cmd-d`.
 
-\!\[GIF\]\(vscode.gif\)
+![GIF](./vscode.gif)
 
 ## Extension Settings
 
