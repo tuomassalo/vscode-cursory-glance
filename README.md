@@ -1,6 +1,6 @@
 # cursory-glance README
 
-VSCode extension that highlights the cursors when there are more than of them.
+VSCode extension that highlights the cursors when there are more than of them. (Using Atom? See the [Atom package](https://atom.io/packages/cursory-glance).)
 
 ## Features
 
