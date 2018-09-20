@@ -1,0 +1,37 @@
+{
+  "name": "cursory-glance",
+  "displayName": "cursory-glance",
+  "description": "Highlight the cursors when there are more than of them",
+  "version": "0.0.1",
+  "publisher": "tuomassalo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuomassalo/vscode-cursory-glance"
+  },
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8.10.25",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1",
+    "vsce": "^1.49.2",
+    "vscode": "^1.1.21"
+  }
+}
